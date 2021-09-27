@@ -123,13 +123,17 @@ li a:hover {
   }
   .hero {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .title {
     color: #ffffff;
     font-weight: bold;
     font-size: 4em;
     margin-top: 0;
+    margin-left: 10px;
+  }
+  .title2 {
+    margin-left: 10px;
   }
   .container {
     margin: auto;
