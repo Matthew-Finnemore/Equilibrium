@@ -1,0 +1,111 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(209, 207, 204);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background: rgb(1, 42, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 42, 74, 1) 0%,
+    rgba(1, 42, 74, 1) 26%,
+    rgba(42, 111, 151, 1) 100%
+  );
+  align-items: center;
+  justify-content: space-between;
+}
+
+#headerLogo {
+  max-width: 20vh;
+  padding: 0px 0px;
+  flex: 1;
+  margin-left: 80px;
+}
+
+.navLinks {
+  width: 100%;
+  flex: 1;
+  margin-right: 80px;
+}
+
+#navButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+li a:link,
+a:visited {
+  color: #a9d6e5;
+  font-size: 1.5em;
+  margin: 0 40px;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+li a:hover {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: url(/img/samuel-girven-VJ2s0c20qCo-unsplash.jpg) no-repeat center
+    center/cover;
+  height: 85vh;
+  position: relative;
+  align-items: center;
+}
+.title {
+  margin-top: 20vh;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 6em;
+}
+.title2 {
+  margin-top: 10px;
+  color: #f6bd60;
+  font-weight: bold;
+  font-size: 3em;
+}
+#hello {
+  color: rgb(59, 59, 59);
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+  align-items: center;
+}
+.selfie {
+  max-width: 425px;
+  max-height: 425px;
+  background-color: white;
+  border-radius: 50%;
+}
+.aboutMe {
+  max-width: 30vw;
+  margin: 60px 50px;
+  color: rgb(59, 59, 59);
+  font-size: 1.5em;
+}
+.current {
+  border-bottom: 2px solid #f6bd60;
+}
