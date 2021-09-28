@@ -97,8 +97,8 @@ li a:hover {
 .selfie {
   width: 50%;
 
-  /* max-width: 425px;
-  max-height: 425px; */
+  max-width: 425px;
+  max-height: 425px;
   background-color: white;
   border-radius: 50%;
 }
