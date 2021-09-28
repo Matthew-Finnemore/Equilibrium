@@ -135,7 +135,7 @@ li a:hover {
   border-radius: 5px;
   padding: 20px 20px;
   text-align: center;
-  background: #2a6f97;
+  background: #21344b;
   transition: 700ms ease-in;
 }
 .cardAmount {
@@ -160,15 +160,15 @@ li a:hover {
   /* text-transform: uppercase; */
   height: 30%;
   font-size: 1.2rem;
-  color: rgb(29, 29, 29);
+  color: rgb(211, 207, 207);
   padding-top: 20px;
   text-transform: capitalize;
   padding-bottom: 10px;
-  border-bottom: rgb(59, 59, 59) 1px solid;
+  border-bottom: rgba(255, 255, 255, 0.555) 1px solid;
   border-radius: 5%;
 }
 .cardDescription {
-  color: rgb(36, 35, 35);
+  color: rgb(187, 184, 184);
   padding-top: 20px;
   font-size: 1rem;
   padding-bottom: 20px;
