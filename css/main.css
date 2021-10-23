@@ -126,7 +126,7 @@ li a:hover {
 .services {
   display: flex;
   flex: space-between;
-  margin-bottom: 600px;
+  margin-bottom: 50px;
 }
 .card {
   flex: 1;
@@ -148,7 +148,6 @@ li a:hover {
   margin-right: 50px;
 }
 .card:nth-child(n):hover {
-  transform: scale(1.2);
   box-shadow: 0px 20px 15px grey;
 }
 #servicesContainer {
@@ -171,7 +170,82 @@ li a:hover {
   color: rgb(187, 184, 184);
   padding-top: 20px;
   font-size: 1rem;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+.book {
+  font-size: 2rem;
+  color: #f6bd60;
+  margin-bottom: 10px;
+}
+.book:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+  transition: 350ms ease-in-out;
+}
+
+/* Contact Form */
+.contactContainer {
+  color: rgb(59, 59, 59);
+  width: 30vw;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.formItem {
+  display: flex;
+  flex-direction: column;
+}
+.formItem > * {
+  align-self: flex-start;
+}
+.form_label {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 10px 0;
+}
+.form_input {
+  width: 100%;
+  max-width: 425px;
+  outline: none;
+  border: 1px solid #6d6d6d;
+  border-radius: 4px;
+  height: 2.5rem;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #dddddd;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+.form_input:focus {
+  background: rgb(255, 255, 255);
+}
+.form_input::placeholder {
+  color: rgb(158, 158, 158);
+}
+select:invalid {
+  color: rgb(158, 158, 158);
+}
+select:focus {
+  color: black;
+}
+textarea.form_input {
+  resize: none;
+  min-height: 200px;
+}
+
+.form_btn {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px 16px;
+  margin-top: 10px;
+  background: #f6bd60;
+  color: #21344b;
+  border: 1px solid #192738;
+  cursor: pointer;
+  outline: none;
+}
+.form_btn:active {
+  color: #f6bd60;
+  background: #21344b;
 }
 /* media Queires */
 

@@ -17,7 +17,7 @@
   <body>
     <!-- Header -->
     <div class="header">
-      <img src="/img/Equilibrium Logo.png" alt="" id="headerLogo" />
+      <img src="/img/Equilibrium Logo.jpg" alt="" id="headerLogo" />
       <div class="navLinks">
         <ul id="navButtons">
           <li><a class="current" href="#home">Home</a></li>
@@ -69,6 +69,7 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
+          <a class="book">Book Now</a>
         </div>
         <div class="card">
           <div class="cardAmount">£30</div>
@@ -78,6 +79,7 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
+          <a class="book">Book Now</a>
         </div>
 
         <div class="card">
@@ -88,18 +90,98 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
+          <a class="book">Book Now</a>
         </div>
 
         <div class="card">
           <div class="cardAmount">£40</div>
-          <div class="cardTitle">30min full body massage</div>
+          <div class="cardTitle">50min full body massage</div>
           <p class="cardDescription">
             Choose either an upper or lower body massage. This option is great
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
+          <a class="book">Book Now</a>
         </div>
       </div>
+    </div>
+    <div class="linebreak"></div>
+    <div class="contactContainer">
+      <form action="" class="contact">
+        <div class="formItem">
+          <label for="name" class="form_name form_label">Name</label>
+          <input
+            class="form_input"
+            type="text"
+            name="name"
+            placeholder="John Smith"
+          />
+        </div>
+        <div class="formItem">
+          <label for="emailAddress" class="form_email form_label">
+            Email Address</label
+          >
+          <input
+            class="form_input"
+            type="email"
+            name="emailAddress"
+            placeholder="JohnSmith@gmail.com"
+          />
+        </div>
+        <div class="formItem">
+          <label for="phoneNumber" class="form_phone form_label"
+            >Phone Number</label
+          >
+          <input
+            class="form_input"
+            type="tel"
+            name="phoneNumber"
+            placeholder="07788899900"
+          />
+        </div>
+        <div class="formItem">
+          <label for="massageType" class="form_massage form_label"
+            >Massage Option:</label
+          >
+          <select
+            class="form_input"
+            name="massageType"
+            placeholder="Choose an Option"
+            size="1"
+            required
+          >
+            <option disabled selected hidden value="">Choose an Option</option>
+            <option value="query">Just a Query</option>
+            <option value="30-upper">30 Min Upper Body</option>
+            <option value="30-lower">30 Min Lower Body</option>
+            <option value="30-full">30 Min Full Body</option>
+            <option value="50-upper">50 Min Upper Body</option>
+            <option value="50-lower">50 Min Lower Body</option>
+            <option value="50-full">50 Min Full Body</option>
+          </select>
+        </div>
+        <div class="formItem">
+          <label for="date" class="form_date form_label">Prefered Date</label>
+          <input
+            class="form_input"
+            type="date"
+            name="preferedDate"
+            placeholder="Enter your Prefered Date"
+          />
+        </div>
+        <div class="formItem">
+          <label for="message" class="form_message form_label">Message</label>
+          <textarea
+            class="form_input"
+            name="message"
+            id="message"
+            placeholder="Please let me know of any preferences or questions."
+          ></textarea>
+        </div>
+        <div class="formItem">
+          <button class="form_btn" type="submit">Submit</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
