@@ -272,6 +272,13 @@ textarea.form_input {
     font-size: 1rem;
     margin-bottom: 40px;
   }
+  .contactContainer {
+    color: rgb(59, 59, 59);
+    margin: auto;
+    margin-bottom: 200px;
+
+    max-width: 90vw;
+  }
 }
 @media only screen and (max-width: 900px) {
   .navLinks {
@@ -323,8 +330,7 @@ textarea.form_input {
   .services {
     display: flex;
     flex-direction: column;
-
-    margin-bottom: 600px;
+    margin-bottom: 50px;
   }
   .card:nth-child(1) {
     margin-right: 0px;
@@ -334,5 +340,74 @@ textarea.form_input {
   .card:nth-child(4) {
     margin-right: 0px;
     margin-top: 30px;
+  }
+  .contactContainer {
+    color: rgb(59, 59, 59);
+    margin: auto;
+    margin-bottom: 200px;
+    max-width: 90vw;
+  }
+  .formTitle {
+    color: rgb(59, 59, 59);
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  .formItem {
+    display: flex;
+    flex-direction: column;
+  }
+  .formItem > * {
+    align-self: flex-start;
+  }
+  .form_label {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 10px 0;
+  }
+  .form_input {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    outline: none;
+    border: 1px solid #6d6d6d;
+    border-radius: 4px;
+    height: 2.5rem;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #dddddd;
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+  }
+  .form_input:focus {
+    background: rgb(255, 255, 255);
+  }
+  .form_input::placeholder {
+    color: rgb(158, 158, 158);
+  }
+  select:invalid {
+    color: rgb(158, 158, 158);
+  }
+  select:focus {
+    color: black;
+  }
+  textarea.form_input {
+    resize: none;
+    min-height: 200px;
+  }
+
+  .form_btn {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 16px;
+    margin-top: 20px;
+    background: #f6bd60;
+    color: #21344b;
+    border: 1px solid #192738;
+    cursor: pointer;
+    outline: none;
+  }
+  .form_btn:active {
+    color: #f6bd60;
+    background: #21344b;
   }
 }
