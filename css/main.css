@@ -187,9 +187,14 @@ li a:hover {
 /* Contact Form */
 .contactContainer {
   color: rgb(59, 59, 59);
-  width: 30vw;
+  width: 600px;
   margin: auto;
   margin-bottom: 200px;
+}
+.formTitle {
+  color: rgb(59, 59, 59);
+  font-size: 4em;
+  margin-bottom: 60px;
 }
 .formItem {
   display: flex;
@@ -199,13 +204,15 @@ li a:hover {
   align-self: flex-start;
 }
 .form_label {
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   padding: 10px 0;
 }
 .form_input {
+  font-family: "Roboto", sans-serif;
   width: 100%;
-  max-width: 425px;
+  max-width: 600px;
   outline: none;
   border: 1px solid #6d6d6d;
   border-radius: 4px;
@@ -236,7 +243,7 @@ textarea.form_input {
   font-size: 1.1em;
   font-weight: 600;
   padding: 10px 16px;
-  margin-top: 10px;
+  margin-top: 20px;
   background: #f6bd60;
   color: #21344b;
   border: 1px solid #192738;
