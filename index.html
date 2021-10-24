@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
@@ -20,13 +24,14 @@
       <img src="/img/Equilibrium Logo.jpg" alt="" id="headerLogo" />
       <div class="navLinks">
         <ul id="navButtons">
-          <li><a class="current" href="#home">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
+
     <!-- Hero Section -->
     <div class="hero">
       <div class="title">Josh Stothard</div>
@@ -69,7 +74,7 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
-          <a class="book">Book Now</a>
+          <a href="#contact" class="book">Book Now</a>
         </div>
         <div class="card">
           <div class="cardAmount">£30</div>
@@ -79,7 +84,7 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
-          <a class="book">Book Now</a>
+          <a href="#contact" class="book">Book Now</a>
         </div>
 
         <div class="card">
@@ -90,7 +95,7 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
-          <a class="book">Book Now</a>
+          <a href="#contact" class="book">Book Now</a>
         </div>
 
         <div class="card">
@@ -101,13 +106,18 @@
             for regular therapy which can really help with sport specific injury
             or rehalibitation.
           </p>
-          <a class="book">Book Now</a>
+          <a href="#contact" class="book">Book Now</a>
         </div>
       </div>
     </div>
     <div class="linebreak"></div>
-    <div class="contactContainer">
-      <div class="formTitle">Contact Me</div>
+    <div class="contactContainer" id="contact">
+      <div class="formTitle">Query Form</div>
+      <p id="form-desc">
+        Please use this form to contact me with any questions or to request a
+        massage, I will always do my best to accomodate any requests and will be
+        in touch by phone or email as soon as possible.
+      </p>
       <form name="contact" method="POST" data-netlify="true" class="contact">
         <div class="formItem">
           <label for="name" class="form_name form_label">Name:</label>
