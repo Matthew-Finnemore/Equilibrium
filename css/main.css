@@ -83,7 +83,7 @@ li a:hover {
   color: rgb(59, 59, 59);
   font-size: 4em;
   margin-bottom: 30px;
-  margin-left: -3px;
+  margin-left: -5px;
 }
 .about {
   display: flex;
@@ -284,6 +284,9 @@ textarea.form_input {
     margin-bottom: 200px;
 
     max-width: 90vw;
+  }
+  #hello {
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 900px) {
