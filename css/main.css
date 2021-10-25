@@ -303,6 +303,26 @@ textarea.form_input {
   color: #f6bd60;
   background: #21344b;
 }
+.footer {
+  width: 100%;
+  background-color: #21344b;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: rgb(211, 207, 207);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socials a {
+  font-size: 4rem;
+  color: #f6bd60;
+  margin: 10px 20px;
+}
+.designBy {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
 /* media Queires */
 
 @media only screen and (max-width: 1400px) {
