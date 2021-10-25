@@ -67,16 +67,14 @@ body {
 .menu-btn.open .menu-btn-lines::after {
   transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
 }
-.navLinks {
-  width: 100%;
-  flex: 1;
-  margin-right: 80px;
-}
 
 #navButtons {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  width: 100%;
+  flex: 1;
+  margin-right: 80px;
 }
 .container {
   width: 80%;
@@ -230,7 +228,7 @@ a.book {
   color: rgb(59, 59, 59);
   width: 700px;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 .formTitle {
   color: rgb(59, 59, 59);
@@ -243,6 +241,7 @@ a.book {
 form {
   border: 1px solid #21344b;
   padding: 20px;
+  border-radius: 5px;
 }
 .formItem {
   display: flex;
@@ -296,6 +295,7 @@ textarea.form_input {
   border: 1px solid #192738;
   cursor: pointer;
   outline: none;
+  border-radius: 5px;
 
   margin-top: 20px;
 }
