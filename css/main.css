@@ -9,6 +9,7 @@ body {
   background-color: rgb(209, 207, 204);
   position: relative;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .header {
   display: flex;
