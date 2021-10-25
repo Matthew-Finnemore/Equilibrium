@@ -4,8 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
   background-color: rgb(209, 207, 204);
+  position: relative;
+  overflow-x: hidden;
 }
 .header {
   display: flex;
@@ -332,10 +335,10 @@ textarea.form_input {
   .header {
     justify-content: space-between;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .header.open {
-    overflow: visible;
+    /* overflow: visible; */
   }
   #headerLogo {
     margin-left: 50px;
