@@ -6,3 +6,7 @@ menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("open")
   menuItems.classList.toggle("open")
 })
+menuItems.addEventListener("click", () => {
+  menuBtn.classList.toggle("open")
+  menuItems.classList.toggle("open")
+})
