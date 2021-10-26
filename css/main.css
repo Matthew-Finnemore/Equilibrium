@@ -6,7 +6,7 @@
 }
 html,
 body {
-  background-color: rgb(209, 207, 204);
+  background-color: white;
   position: relative;
   overflow-x: hidden;
   scroll-behavior: smooth;
