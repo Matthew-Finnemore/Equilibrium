@@ -437,10 +437,12 @@ textarea.form_input {
     flex-direction: column;
 
     margin: auto;
+    margin-top: 100px;
   }
   .selfie {
     max-width: 250px;
     max-height: 250px;
+    margin-bottom: 50px;
   }
   .aboutMe {
     max-width: none;
