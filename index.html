@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/1af383f821.js"
       crossorigin="anonymous"
@@ -69,7 +70,7 @@
 
     <div class="container" id="servicesContainer ">
       <div class="services" id="services">
-        <div class="card">
+        <div class="card" data-aos="fade-left" data-aos-duration="1000">
           <div class="cardAmount">£25</div>
           <div class="cardTitle">30min upper or lower body massage</div>
           <p class="cardDescription">
@@ -79,7 +80,7 @@
           </p>
           <a href="#contact" class="book">Book Now</a>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="1000">
           <div class="cardAmount">£30</div>
           <div class="cardTitle">30min full body massage</div>
           <p class="cardDescription">
@@ -90,7 +91,7 @@
           <a href="#contact" class="book">Book Now</a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-left" data-aos-duration="1000">
           <div class="cardAmount">£35</div>
           <div class="cardTitle">50min upper or lower body massage</div>
           <p class="cardDescription">
@@ -101,7 +102,7 @@
           <a href="#contact" class="book">Book Now</a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="1000">
           <div class="cardAmount">£40</div>
           <div class="cardTitle">50min full body massage</div>
           <p class="cardDescription">
@@ -221,4 +222,8 @@
     </div>
   </body>
   <script src="/js/main.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
 </html>
