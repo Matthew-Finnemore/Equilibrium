@@ -11,6 +11,14 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+@keyframes slideUp {
+  0% {
+    transform: translateY(100vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .header {
   display: flex;
   width: 100%;
@@ -107,19 +115,23 @@ a:visited {
   height: 80vh;
   position: relative;
   align-items: center;
+  overflow: hidden;
 }
 .title {
+  animation: 2s ease-in-out 0s slideUp;
   margin-top: 20vh;
   color: #ffffff;
   font-weight: bold;
   font-size: 6em;
 }
 .title2 {
+  animation: 3s ease-in-out 0s slideUp;
   margin-top: 10px;
   color: #f6bd60;
   font-weight: bold;
   font-size: 3em;
 }
+
 #hello {
   color: rgb(59, 59, 59);
   font-size: 4em;
@@ -357,9 +369,6 @@ textarea.form_input {
     justify-content: space-between;
     position: relative;
     /* overflow: hidden; */
-  }
-  .header.open {
-    /* overflow: visible; */
   }
   #headerLogo {
     margin-left: 50px;
